@@ -44,10 +44,119 @@
   color: #e3e3e3;
   padding: 120px 15px 15px 15px;
   overflow: scroll; }
+  .container:nth-child(3) {
+    height: 100vh;
+    padding: 0; }
   .container p {
     width: 60%; }
   .container blockquote {
     width: 50%; }
+
+#portfolio h2 {
+  position: absolute;
+  z-index: 5;
+  padding-top: 30px;
+  right: 50%;
+  margin-right: -20px; }
+
+.slider-holder {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden; }
+
+.image-holder {
+  width: 100%;
+  background-color: transparent;
+  height: 80vh;
+  clear: both;
+  position: relative;
+  padding-top: 90px;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s; }
+
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative; }
+
+#slider-image-1:target ~ .image-holder {
+  left: 0px; }
+
+#slider-image-2:target ~ .image-holder {
+  left: -70vw; }
+
+#slider-image-3:target ~ .image-holder {
+  left: -140vw; }
+
+#slider-image-4:target ~ .image-holder {
+  left: -210vw; }
+
+.button-holder {
+  position: relative;
+  top: 10px; }
+
+.slider-change {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: #00c18f; }
+
+.firstImage {
+  height: 100%;
+  width: 50%;
+  background-image: url("imgs/1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.secondImage {
+  height: 100%;
+  width: 50%;
+  background-image: url("imgs/2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -200%;
+  position: relative;
+  left: 100%; }
+
+.thirdImage {
+  height: 100%;
+  width: 50%;
+  background-image: url("imgs/3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -400%;
+  position: relative;
+  left: 200%; }
+
+.imageDescription {
+  height: 100%;
+  width: 40%;
+  position: relative;
+  text-align: left; }
+  .imageDescription h3 {
+    padding-left: 20px; }
+  .imageDescription p {
+    width: 100%;
+    padding: 15px 5px; }
+
+.img1Desc {
+  top: -100%;
+  left: 50%; }
+
+.img2Desc {
+  top: -300%;
+  left: 150%; }
+
+.img3Desc {
+  top: -500%;
+  left: 250%; }
 
 body {
   background: linear-gradient(to right, #222, #343434);
