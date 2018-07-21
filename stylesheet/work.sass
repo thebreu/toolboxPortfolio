@@ -40,7 +40,7 @@
 
 //in order to move to the next image with description, moving the container by the width
 //of the container is necessary, so an increase of 70vw each time
-#slider-image-1:target ~ .image-holder
+#slider-image-1:target ~.image-holder
 
   left: 0px
 
@@ -102,6 +102,15 @@
   position: relative
   left: 200%
 
+.fourthImage
+  height: 100%
+  width: 50%
+  background-image: url("imgs/4.jpg")
+  background-size: contain
+  background-repeat: no-repeat
+  top: -600%
+  position: relative
+  left: 300%
 
 .imageDescription
   height: 100%
@@ -112,7 +121,7 @@
     padding-left: 20px
   p
     width: 100%
-    padding: 15px 5px
+    padding: 15px 0px 0px 20px
 .img1Desc
   top: -100%
   left: 50%
@@ -122,3 +131,6 @@
 .img3Desc
   top: -500%
   left: 250%
+.img4Desc
+  top: -700%
+  left: 350%

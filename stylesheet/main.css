@@ -5,7 +5,8 @@
 .navigation {
   height: 100vh;
   padding: 10px;
-  position: fixed; }
+  position: fixed;
+  z-index: 70; }
 
 .logo {
   height: 50vh;
@@ -50,7 +51,8 @@
   .container p {
     width: 60%; }
   .container blockquote {
-    width: 50%; }
+    width: 50%;
+    color: #00c18f; }
 
 #portfolio h2 {
   position: absolute;
@@ -135,6 +137,16 @@
   position: relative;
   left: 200%; }
 
+.fourthImage {
+  height: 100%;
+  width: 50%;
+  background-image: url("imgs/4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -600%;
+  position: relative;
+  left: 300%; }
+
 .imageDescription {
   height: 100%;
   width: 40%;
@@ -144,7 +156,7 @@
     padding-left: 20px; }
   .imageDescription p {
     width: 100%;
-    padding: 15px 5px; }
+    padding: 15px 0px 0px 20px; }
 
 .img1Desc {
   top: -100%;
@@ -157,6 +169,69 @@
 .img3Desc {
   top: -500%;
   left: 250%; }
+
+.img4Desc {
+  top: -700%;
+  left: 350%; }
+
+.myface {
+  height: 80vh;
+  width: 80vh;
+  background-image: url("imgs/me.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  position: relative;
+  float: right;
+  margin-top: -60vh; }
+
+#about-me {
+  width: 100%; }
+  #about-me h2 {
+    padding-top: 20px; }
+  #about-me p {
+    width: 50%;
+    padding-top: 20px; }
+
+.background-image {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("imgs/bgi.svg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat; }
+
+#contact {
+  padding-top: 30VH; }
+  #contact .contact-wrap {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 6px; }
+  #contact ul {
+    list-style: none;
+    padding-top: 50px;
+    text-shadow: 2px 2px 4px #222; }
+  #contact a {
+    text-decoration: none;
+    color: #e3e3e3;
+    text-shadow: 2px 2px 4px #222; }
+    #contact a:hover {
+      color: #00c18f; }
+  #contact p {
+    text-shadow: 2px 2px 4px #222; }
+
+#jumbotron {
+  padding-top: 40vh; }
+  #jumbotron p {
+    width: 80%;
+    text-shadow: 2px 2px 4px #222; }
+  #jumbotron .background-image {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("imgs/bgi.svg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat; }
 
 body {
   background: linear-gradient(to right, #222, #343434);

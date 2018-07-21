@@ -98,6 +98,32 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/stylesheet\/about.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stylesheet\/about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/stylesheet\/contact.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stylesheet\/contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/stylesheet\/container.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -144,6 +170,27 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/stylesheet\/imgs\/4.jpg": {
+		"ft": 16384,
+		"iS": 541114,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/stylesheet\/imgs\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/stylesheet\/imgs\/bgi.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/stylesheet\/imgs\/bgi.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/stylesheet\/imgs\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -163,6 +210,19 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/stylesheet\/jumbotron.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/stylesheet\/jumbotron.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/stylesheet\/main.css": {
 		"aP": 1,
