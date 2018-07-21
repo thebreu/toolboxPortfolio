@@ -1,10 +1,32 @@
 .navigation
-  height: 90px
+  height: 100vh
   padding: 10px
   position: fixed
 .logo
-  height: 90px
-  width: 150px
+  height: 50vh
+  width: 50vw
+  margin: 25vh 25vw
   background-image: url("imgs/logo.svg")
   background-size: contain
   background-repeat: no-repeat
+  opacity: 1
+  transition: all 5s
+  animation-name: intro
+  animation-duration: 5s
+  animation-fill-mode: forwards
+@keyframes intro
+  0%
+    opacity: 0
+    height: 50vh
+    width: 50vw
+    margin: 25vh 25vw
+  50%
+    opacity: 1
+    height: 50vh
+    width: 50vw
+    margin: 25vh 25vw
+  100%
+    opacity: 1
+    height: 10vh
+    width: 150px
+    margin: 0

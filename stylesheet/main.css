@@ -3,31 +3,51 @@
   padding: 0; }
 
 .navigation {
-  height: 90px;
+  height: 100vh;
   padding: 10px;
   position: fixed; }
 
 .logo {
-  height: 90px;
-  width: 150px;
+  height: 50vh;
+  width: 50vw;
+  margin: 25vh 25vw;
   background-image: url("imgs/logo.svg");
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: all 5s;
+  animation-name: intro;
+  animation-duration: 5s;
+  animation-fill-mode: forwards; }
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+    height: 50vh;
+    width: 50vw;
+    margin: 25vh 25vw; }
+  50% {
+    opacity: 1;
+    height: 50vh;
+    width: 50vw;
+    margin: 25vh 25vw; }
+  100% {
+    opacity: 1;
+    height: 10vh;
+    width: 150px;
+    margin: 0; } }
 
 .container {
   height: calc(100vh - 110px);
-  width: 80vw;
+  width: 70vw;
   margin: 0 auto;
   color: #e3e3e3;
-  padding: 120px 15px 15px 15px; }
-  .container:nth-child(1) {
-    background-color: red; }
-  .container:nth-child(2) {
-    background-color: green; }
-  .container:nth-child(3) {
-    background-color: blue; }
-  .container:nth-child(4) {
-    background-color: yellow; }
+  padding: 120px 15px 15px 15px;
+  overflow: scroll; }
+  .container p {
+    width: 60%; }
+  .container blockquote {
+    width: 50%; }
 
 body {
   background: linear-gradient(to right, #222, #343434);
@@ -35,6 +55,21 @@ body {
   font-family: Roboto-Thin; }
   body h1, body h2 {
     font-family: BebasNeue-Regular; }
+
+main {
+  overflow: hidden;
+  animation-name: reveal;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  transition: all 5s; }
+
+@keyframes reveal {
+  0% {
+    opacity: 0; }
+  80% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 @font-face {
   font-family: 'BabasNeue';

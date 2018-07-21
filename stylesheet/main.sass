@@ -10,6 +10,20 @@ body
   font-family: Roboto-Thin
   h1,h2
     font-family: BebasNeue-Regular
+main
+  overflow: hidden
+  animation-name: reveal
+  animation-duration: 5s
+  animation-fill-mode: forwards
+  transition: all 5s
+
+@keyframes reveal
+  0%
+    opacity: 0
+  80%
+    opacity: 0
+  100%
+    opacity: 1
 @font-face
   font-family:  'BabasNeue'
   src: url('fonts/BebasNeue-Regular.otf') format('opentype')
